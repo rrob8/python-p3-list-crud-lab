@@ -1,14 +1,24 @@
 def create_an_empty_list():
-    return None
+    some_list =[]
+    return some_list
+
 
 def create_a_list():
-    return None
+    i = 0
+    list = []
+    while i < 4:
+        list.append(i)
+        i += 1
+    return list
 
 def add_element_to_end_of_list(l, element):
-    return None
+    l.append(element)
+    return l
+
 
 def add_element_to_start_of_list(l, element):
-    return None
+    l.insert(0, element)
+    return l
 
 def remove_element_from_end_of_list(l):
     return None
