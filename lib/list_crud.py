@@ -21,16 +21,18 @@ def add_element_to_start_of_list(l, element):
     return l
 
 def remove_element_from_end_of_list(l):
-    return None
+    l.pop()
+    return l
 
 def remove_element_from_start_of_list(l):
-    return None
+   del l[0]
+   return l
 
 def retrieve_first_element_from_list(l):
-    return None
+    return l[0]
 
 def retrieve_element_from_index(l, index):
-    return None
+    return l[index]
 
 def retrieve_last_element_from_list(l):
-    return None
+    return l[-1]
